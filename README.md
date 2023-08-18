@@ -1,5 +1,4 @@
-markdown
-Copy code
+
 # Simple Code Repository
 
 Welcome to the Simple Code Repository! This repository contains a basic Python script that demonstrates a simple function for greeting users.
