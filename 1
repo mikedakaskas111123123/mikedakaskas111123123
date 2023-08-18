@@ -1,0 +1,21 @@
+# Замените <username> на ваше имя пользователя и <repository> на имя вашего репозитория
+git clone https://github.com/<username>/<repository>.git
+cd <repository>
+
+def greet(name):
+    return f"Hello, {name}!"
+
+if __name__ == "__main__":
+    name = input("Enter your name: ")
+    message = greet(name)
+    print(message)
+
+
+# Добавить файл в индекс
+git add simple_code.py
+
+# Создать коммит с сообщением
+git commit -m "Add simple_code.py"
+
+# Отправить коммит в удаленный репозиторий на GitHub
+git push origin main
